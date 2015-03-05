@@ -13,6 +13,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'devise'
 gem 'gravatar-ultimate'
+gem "table_print"
+gem 'byebug'
 
 group :development do
   gem 'pry' #debugger

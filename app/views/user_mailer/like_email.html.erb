@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h1 style="text-align: center">Ha ocurrido un <strong><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>MATCH<span class="glyphicon glyphicon-heart" aria-hidden="true"></span></strong>, entre <%= @user.name %> y <%= @friend.name %></span><h1>
+
+		<p>Bien, ya lo tienes, ha habido match entre ustedes. Aquí los datos de ambos para que... bueno, para que hagan valer ese <strong><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>MATCH<span class="glyphicon glyphicon-heart" aria-hidden="true"></span></strong></p>
+
+	<ul>
+		<li><%= @user.name %></li>
+		<li><%= @user.email %></li>
+		<li><%= @user.age %></li>
+	</ul>
+
+	<ul>
+		<li><%= @friend.name %></li>
+		<li><%= @friend.email %></li>
+		<li><%= @friend.age %></li>
+	</ul>
+	
+		
+	</body>
+</html>
